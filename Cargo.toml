@@ -1,0 +1,13 @@
+[package]
+name = "rs-tls-handshake"
+version = "1.0.0"
+edition = "2021"
+description = "TLS 1.3 handshake simulation (ClientHello, ServerHello)"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-tls-handshake"
+keywords = ["rust", "tls", "handshake", "security", "networking"]
+
+[[bin]]
+name = "rs_tls_handshake"
+path = "main.rs"
